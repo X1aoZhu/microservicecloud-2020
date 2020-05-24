@@ -1,0 +1,13 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: nacos-payment-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.240.132:1111
+      config:
+        server-addr: 192.168.240.132:1111
+        namespace: 41ccd308-12b9-4673-acb6-21206765998a
+        file-extension: yaml
