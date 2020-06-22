@@ -37,5 +37,4 @@ public class GatewayConfig {
                         .uri("http://news.baidu.com/guoji")).build();
         return routes.build();
     }
-
 }
